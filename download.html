@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no minimal-ui">
+<title>电厂助手</title>
+
+<style type="text/css">
+.Cbox{height: 77px;
+		background-color: #fafafa;
+		border-bottom: 1px solid #eee;
+	text-align: center;
+}
+.Tt{font-size: 22px; 
+	font-family: NotoSansHans-Regular,AvenirNext-Regular,proxima-nova,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei","Open Sans","Helvetica Neue",Arial,sans-serif;
+	line-height: 77px; clear: both;margin-bottom: 60px; color: #666;}
+.Cimg{margin:0 auto; display: block;width: 120px; height: 120px; border: 1px solid #ddd; clear: both;border-radius: 24px;margin-bottom: 40px;}
+.Cbtn{margin: 0 auto;display:inline-block; padding:15px 25px;background-color: #1abc9c; font-size: 18px; color: #fff; text-align: center; outline: none; text-decoration: none;}
+.Cbtn:hover , .Cbtn:visited,.Cbtn:focus{color:#fff;opacity: 0.9; text-decoration: none;outline:none;}
+.Cbtn img{margin:5px;}
+.CCBOX{text-align:center;}
+</style>
+<script>
+	window.onload=function(){
+		var Cbtn = document.querySelector('.Cbtn')
+		Cbtn.onclick=function(){
+			window.location.href='itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/wisesign/ios-release/master/x5.plist';
+		}
+	}
+</script>
+</head>
+
+<body>
+	<div class="Cbox">
+		<div class="container ">
+			<div class="pull-middle Tt">电厂助手</div>
+			
+			
+		</div>
+		<!--
+		<div class="container">
+			<img src="img/120" class="Cimg">
+		</div>
+		-->
+		<div class="container CCBOX">
+			<a href="#" class="Cbtn" onclick="">点击安装</a>
+		</div>
+	</div>
+</body>
+</html>
